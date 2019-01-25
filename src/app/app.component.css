@@ -1,0 +1,28 @@
+.background{
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../assets/homepage.jpg");
+    font-family: 'Snell Roundhand';
+}
+
+.menu{
+    font-family: 'Snell Roundhand';
+    display: flex;
+    justify-content: center;
+}
+
+.menu > a{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+

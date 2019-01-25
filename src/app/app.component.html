@@ -1,0 +1,35 @@
+
+<div class="background">
+  <div class="ui container ">
+      <div class="ui inverted huge secondary pointing menu">
+          <a class="vertically fitted item " routerLinkActive='active' routerLink="/home">
+            Home
+          </a>
+          <a class="vertically fitted item" routerLinkActive='active' routerLink="/rsvp">
+            RSVP
+          </a>
+          <a class="vertically fitted item" routerLinkActive='active' routerLink="/locatie">
+            Locatie
+          </a>
+          <a class="vertically fitted item" routerLinkActive='active' routerLink="/accomodatie">
+            Accomodatie
+          </a>
+          <a class="vertically fitted item" routerLinkActive='active' routerLink="/inschrijvingen">
+            Inschrijvingen
+          </a>
+          <!-- <div class="right huge split menu">
+          <div class="ui transparent icon input">
+                        <input (keyup)='filterGift$.next($event.target.value)' id ='filter' class="prompt" type="text" placeholder="Zoek product">
+                        <i class="search link icon"></i>
+                      </div>
+            <a class="item" *ngIf='(currentUser | async) else loginlink' routerLinkActive='active'>Welkom {{currentUser|async}}</a>
+            <a class="item" routerLinkActive='active' routerLink="/logout">Log uit</a>
+            <ng-template #loginlink>
+              <a class="item" routerLinkActive='active' routerLink="/login">log in</a>
+            </ng-template>
+          </div> -->
+        </div>
+        <router-outlet></router-outlet>  
+      </div>
+    </div>
+  

@@ -1,0 +1,31 @@
+<div class="ui container">
+  <form class="ui form">
+    <div class="field">
+      <label>Voornaam & Achternaam</label>
+      <input type="text" name="naam" placeholder="Voornaam & Achternaam">
+    </div>
+    <div class="ui accordion">
+      <div class="title" (click)="showComments()">
+        <i class="dropdown icon"></i>
+        Gast toevoegen
+      </div>
+      <div class="content">
+        <div class="transition hidden">
+          <div class="field">
+            <label>Voornaam & Naam Gast</label>
+            <input type="text" name="gast-naam" placeholder="Gast: Voornaam & Achternaam">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="field">
+      <label>Verzoeknummer</label>
+      <input type="text" name="verzoeknummer" placeholder="Verzoeknummer">
+    </div>
+    <div class="field">
+      <label>Nog vragen of wil je nog iets zeggen?</label>
+      <textarea></textarea>
+    </div>
+    <button class="ui button" type="submit">Submit</button>
+  </form>
+</div>
